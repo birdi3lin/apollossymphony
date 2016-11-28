@@ -1,0 +1,244 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #000000;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*My Styles*/
+
+nav{
+  box-shadow: none;
+}
+
+#navlist1 a, #navlist2 a, #navlist3 a{
+  text-decoration: none;
+  color: #000000;
+  font-family: "High Tower Text","GeosansLight", Arial;
+  font-size: 12pt;
+  margin: 0px 12px;
+  padding: 0px 16px;
+}
+#navlist4 a, #navlist5 a{
+  padding-left: 20px;
+  text-decoration: none;
+  color: #000000;
+
+}
+#navlist1 a:hover, #navlist2 a:hover, #navlist3 a:hover, #navlist4 a:hover, #navlist5 a:hover{
+  color:#ad974f;
+  background-color: none;
+}
+#navlist1 a:before{
+  content: "";
+  position: absolute;
+  width: 6%;
+  height: 2px;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  margin-left: -0.3% auto;
+  margin-bottom: 10px;
+  background-color: #2b2b2b;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#navlist1 a:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#navlist2 a:before{
+  content: "";
+  position: absolute;
+  width: 7%;
+  height: 2px;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  margin-left: -1px;
+  margin-bottom: 10px;
+  background-color: #2b2b2b;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#navlist2 a:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#navlist3 a:before{
+  content: "";
+  position: absolute;
+  width: 9%;
+  height: 2px;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  margin-left: 0 auto;
+  margin-bottom: 10px;
+  background-color: #2b2b2b;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#navlist3 a:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+#person, #cart{
+  left: 60%;
+}
+#apollo{
+  margin-top: 5%;
+}
+#lookbox{
+  position: relative;
+  top: -50px;
+}
+
+#look{
+  border: 2px solid #000000;
+  width: 150px;
+  height: 50px;
+  font-family: "High Tower Text", "GeosansLight", Arial;
+  font-size: 14pt;
+  color: #000000;
+  padding: 10px;
+}
+
+
+a #look:hover{
+  transform: translate(-2px,-5px);
+  box-shadow: 7px 4px 11px -4px rgba(0,0,0,0.75);
+  background-color: #b18d3a;
+  color: #ffffff;
+  transition: 0.5s;
+
+}
+#about-text{
+  font-family: "GeosansLight", Arial;
+  font-size: 18pt;
+  text-align: justify;
+}
+footer{
+  border-top: 1px solid #e1e1e1;
+}
+
+#footertext{
+  color: #000000;
+  font-family: "High Tower Text", "GeosansLight", Arial;
+}
+
+#footertext2{
+  font-family: "GeosansLight", "Arial";
+  font-size:14pt;
+}
+
+#divText{
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  font-size: 20pt;
+  font-family: "GeosansLight"
+}
+
+#footerimage img{
+  filter: opacity(65%);
+}
+
+#footerimage img:hover{
+  filter: opacity(100%);
+  transition: all ease 0.5s;
+}
+#header{
+  font-family: "High Tower Text", "GeosansLight", Arial;
+}
+
+.card-content{
+  font-family: "GeosansLight", Arial;
+  font-size: 14pt;
+}
+
+.sheetfont{
+  font-family: "High Tower Text", "GeosansLight", Arial;
+  font-size: 14pt;
+  color: #000000;
+}
+
+.sheetfont a{
+  color:#000000;
+
+}
+
+.sheetfont a:hover{
+  color: #b18d3a;
+}
+
+#footertext2 a{
+  color: #000000;
+}
+
+#footertext2 a:hover{
+  color: #b18d3a;
+}
+
+#app{
+  -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s;
+    animation-name: this;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes this {
+    from {background-color: #ffffff;opacity:0;}
+    to {opacity: 1;}
+}
